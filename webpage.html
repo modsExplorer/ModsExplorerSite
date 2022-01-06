@@ -4,31 +4,20 @@
         <title>Example</title>
         <link rel="stylesheet" href="webpage_css.css" media="screen" />
     </head>
-    <body>
-        <ul style="position: relative; top:100px; left: 20%;">
+    <body background="images/bkg.png" style="overflow: hidden;background-repeat:no-repeat;">
+        <ul style="position: relative; top:-80px; left: 20%;">
             <li><img id="logo" src="images/profile.png"></li>
             <li><p id="text">modsExplorer</p></li>
-            <li><p
-                style="font-size: 20px;font-family:'Pacifico',cursive;position:relative;top: 30px;">from</p></li>
-            <li><img style="
-                position: relative;
-                width: 50px;
-                height: 50px;
-                top:50px;
-                left: -5px;
-                " src="images/Instagram.png"></li>
         </ul>
-        <ul style="position: relative;top:100px; left: 15%;">
-
-            <li><p id="mods_text" >Find new mods<br> for you,<br>choosen by us</p></li>
+        <ul style="position: relative;top:80px; left: 15%;">
             
                 <li>
                 <a href="#" onclick="openSite()">
-                    <img src="images/download.gif" id="gif">
-                    <button  id="teleport"></button> 
+                    <button  id="teleport">Discover a New Mod!</button> 
                 </a>
                 <script>
                 var links = [
+
                 "https://link-hub.net/384748/farmer-s-delight",
 "https://link-center.net/384748/backpack-mod",
 "https://link-hub.net/384748/optifine-hd",
@@ -737,8 +726,10 @@
 "https://direct-link.net/384748/conjuring",
 "https://link-center.net/384748/furnish",
 "https://direct-link.net/384748/animal-tamer",
-"https://link-hub.net/384748/resourceful-tools"
-]
+"https://link-hub.net/384748/resourceful-tools",
+
+
+                ]
 
                         var openSite = function() {
                             // get a random number between 0 and the number of links
@@ -754,6 +745,15 @@
                 </li>
 
         </ul>
+        <p id="question">
+            So, Whats the catch?
+        </p>
+        <p id="answer">
+            <span style="color: rgb(0, 0, 0);">You get to discover or revisit one of</span> 
+            <span style="color: rgb(0, 0, 253); font-size: 80px;">700</span>
+            <span style="color: rgb(0, 0, 0);">mods<br> we listed for only the price of an ad <br></span>
+            <span style="color: rgb(0, 0, 0);"> wich will help us a <span style="color: rgb(255, 0, 0); font-size: 70px;">LOT</span>, <br>and thanks in advance :)</span>
+        </p>
 
     </body>
 </html>
